@@ -1,0 +1,19 @@
+[project]
+name = 'design-ember-gallery'
+description = ''
+authors = []
+telemetry = true
+cache_dir = '.\.cache'
+requirements = []
+[contracts.design-ember-gallery]
+path = 'contracts/design-ember-gallery.clar'
+clarity_version = 3
+epoch = 3.0
+[repl.analysis]
+passes = ['check_checker']
+
+[repl.analysis.check_checker]
+strict = false
+trusted_sender = false
+trusted_caller = false
+callee_filter = false
